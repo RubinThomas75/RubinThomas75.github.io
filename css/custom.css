@@ -1,16 +1,5 @@
-.custom-content-section {
-	 background-color: white;
-	 color: black;
-	  padding-top: 100px;
-	 padding-right: 0px;
- 	 padding-left: 0px;
- 	 padding-bottom: 50px;
- 	 margin-right: auto;
- 	 margin-left: auto;
- 	 text-align: left;
-}
+
 .intro-1 {
-  display: table;
   width: 100%;
   height: auto;
   padding: 100px 0;
@@ -23,7 +12,8 @@
   -o-background-size: cover;
 }
 .intro-1 .intro-body-1 {
-  display: table-cell;
+	position: relative;
+	top: 40%;
   vertical-align: middle;
 }
 .intro-1 .intro-body-1 .brand-heading-1 {
@@ -45,9 +35,21 @@
   }
 }
 
-ul.block-order{
-	display: table-cell;
-  vertical-align: middle;
+ .block-order{
+
+ 	display: table;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+
+}
+
+.one {
+  position: relative;
+  top: 200px;
+  margin:0 auto;
+  width:90%
 }
 li.block-display {
 	position: center;
@@ -56,5 +58,20 @@ li.block-display {
    clear:right;
    width:300px; // adjust
    height:150px; // adjust
-   padding: 50px; //adjust
+       padding-top: 2vmin;
+    padding-bottom: 2vmin;
+    padding-right: 2vmin;
+    padding-left: 2vmin;
+}
+
+.custom-content-section {
+	 background-color: white;
+	 color: black;
+	  padding-top: 100px;
+	 padding-right: 0px;
+ 	 padding-left: 0px;
+ 	 padding-bottom: 50px;
+ 	 margin-right: auto;
+ 	 margin-left: auto;
+ 	 text-align: left;
 }
