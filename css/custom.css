@@ -2,10 +2,59 @@
 	 background-color: white;
 	 color: black;
 	  padding-top: 100px;
-	 padding-right: 15px;
- 	 padding-left: 15px;
+	 padding-right: 0px;
+ 	 padding-left: 0px;
+ 	 padding-bottom: 50px;
  	 margin-right: auto;
  	 margin-left: auto;
- 	 text-align: center;
+ 	 text-align: left;
+}
+.intro-1 {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  color: white;
+  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.intro-1 .intro-body-1 {
+  display: table-cell;
+  vertical-align: middle;
+}
+.intro-1 .intro-body-1 .brand-heading-1 {
+  font-size: 40px;
+}
+.intro-1 .intro-body-1 .intro-text-1 {
+  font-size: 18px;
+}
+@media (min-width: 768px) {
+  .intro-1 {
+    height: 100%;
+    padding: 0;
+  }
+  .intro-1 .intro-body-1 .brand-heading-1 {
+    font-size: 100px;
+  }
+  .intro-1 .intro-body-1 .intro-text-1 {
+    font-size: 26px;
+  }
+}
 
+ul.block-order{
+	display: table-cell;
+  vertical-align: middle;
+}
+li.block-display {
+	position: center;
+   display: block;
+   float:right;
+   clear:right;
+   width:300px; // adjust
+   height:150px; // adjust
+   padding: 50px; //adjust
 }
