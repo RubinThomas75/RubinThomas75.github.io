@@ -87,6 +87,26 @@ li.block-display {
   padding-top:30px;
 }
 
+.custom-about-section{
+   background-color: white;
+   color: black;
+    padding-top: 100px;
+   padding-right: 0px;
+   padding-left: 0px;
+   padding-bottom: 50px;
+   margin-right: auto;
+   margin-left: auto;
+   text-align: center;
+}
+
 .small-text{
   font-size: 12px;
+}
+
+h1.num-headings {
+  margin: 0 0 2px;
+  text-transform: lowercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
