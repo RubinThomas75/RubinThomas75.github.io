@@ -25,6 +25,7 @@
         <!--Custom CSS -->
     <link href ="css/custom.css" rel = "stylesheet">
 
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -34,7 +35,7 @@
 
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" onload = "newFunc()">
 
     <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -59,10 +60,10 @@
                     	<a href = "https://RubinThomas75.github.io"> Home </a>
                     </li>
                     <li>
-                        <a href="https://rubinthomas75.github.io/about">About</a>
+                        <a href="_blank">Work</a>
                     </li>
-                    <li>
-                        <a href="_blank">Projects</a>
+                     <li>
+                        <a href="https://rubinthomas75.github.io/about">About</a>
                     </li>
                 </ul>
             </div>
@@ -75,11 +76,11 @@
     <header class="intro-1" id = "bg">
         <div class="intro-body-1">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1> HI;</h1>
+                        <h1 class = "introvis" id = "frontscreen"> HI;</h1>
                     </div>
         </div>
         <!-- href blocks on intro page -->
-        <div class = "block-order" >
+        <div class = "block-order">
            <ul class = "one"> 
      			<li class = "block-display" id = "fb">
        			 	<a href="https://www.facebook.com/RubiRubbz" class="btn btn-default btn-lg"><i class="fa fa-facebook-square fa-fw"></i> <span class="network-name">Facebook</span></a>
@@ -131,7 +132,7 @@
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.js"></script>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src = js/jQuery.js></script>
 
     <!--customJS -->
     <script type = "text/javascript" src = "js/custom.js"</script>
@@ -144,7 +145,7 @@
 
 
     <!-- Theme JavaScript -->
-    <script src="js/grayscale.min.js"></script>
+    <script src="js/grayscale.js"></script>
 
 </body>
 
