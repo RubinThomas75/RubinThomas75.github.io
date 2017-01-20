@@ -52,6 +52,7 @@
   width:90%
 }
 li.block-display {
+  opacity: 1;
 	position: center;
    display: block;
    float:right;
