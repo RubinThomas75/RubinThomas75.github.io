@@ -60,7 +60,7 @@ a:focus {
   background-color: black;
 }
 .navbar-custom .navbar-toggle {
-  color: white;
+  color: #3BB9FF
   background-color: rgba(255, 255, 255, 0.2);
   font-size: 12px;
 }
@@ -75,7 +75,7 @@ a:focus {
   outline: none;
 }
 .navbar-custom a {
-  color: white;
+  color: #3BB9FF;
 }
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
@@ -257,16 +257,16 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #42DCA3;
-  color: #42DCA3;
+  border: 2px solid #3BB9FF;
+  color: #3BB9FF;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #42DCA3;
+  border: 2px solid #3BB9FF;
   outline: none;
-  color: black;
-  background-color: #42DCA3;
+  color: white;
+  background-color:#3BB9FF;
 }
 ul.banner-social-buttons {
   margin-top: 0;

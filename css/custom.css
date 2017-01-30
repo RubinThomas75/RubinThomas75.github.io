@@ -5,7 +5,7 @@
   height: auto;
   padding: 100px 0;
   color: white;
-  background: url(../img/intro-bg.jpg) no-repeat left top scroll;
+  background: url(../img/intro-new-bg.jpg) no-repeat left top scroll;
   background-position: 0px -100px;
   background-color: black;
   -webkit-background-size: cover;
@@ -59,7 +59,7 @@
   position: relative;
   top: 200px;
   margin:0 auto;
-  width:90%
+  width:62%
 }
 li.block-display {
   opacity: 0;
