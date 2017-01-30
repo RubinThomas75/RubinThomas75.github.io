@@ -5,12 +5,14 @@
   height: auto;
   padding: 100px 0;
   color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  background: url(../img/intro-bg.jpg) no-repeat left top scroll;
+  background-position: 0px -100px;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+
 
       -webkit-backface-visibility: hidden;
     -webkit-transition: opacity 500ms linaer;
