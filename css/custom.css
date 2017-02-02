@@ -1,6 +1,6 @@
 
 .intro-1 {
-  opacity: 0;
+  opacity: 1;
   width: 100%;
   height: auto;
   padding: 100px 0;
@@ -15,7 +15,7 @@
 
 
       -webkit-backface-visibility: hidden;
-    -webkit-transition: opacity 500ms linaer;
+    -webkit-transition: opacity 500ms linear;
     -moz-transition: opacity 500ms linear;
     -o-transition: opacity 500ms linear;
     -ms-transition: opacity 500ms linear;
@@ -135,4 +135,58 @@ h1.num-headings {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
+}
+
+
+/* ---------------------------------------------- /*
+ * Preloader
+/* ---------------------------------------------- */
+
+#preloader {
+  background: #FFF;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+  opacity: 1;
+
+    -webkit-transition: opacity 400ms linaer;
+    -moz-transition: opacity 400ms linear;
+    -o-transition: opacity 400ms linear;
+    -ms-transition: opacity 400ms linear;
+    transition: opacity 400ms linear;
+}
+
+#status, .status-mes {
+  background-image: url(../img/488.GIF);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  left: 50%;
+  margin: -100px 0 0 -100px;
+  position: absolute;
+  top: 50%;
+  width: 200px;
+  opacity: 1;
+
+    -webkit-transition: opacity 4000ms linear;
+    -moz-transition: opacity 400ms linear;
+    -o-transition: opacity 400ms linear;
+    -ms-transition: opacity 400ms linear;
+    transition: opacity 400ms linear;
+}
+
+.status-mes {
+  background: none;
+  left: 0;
+  margin: 0;
+  text-align: center;
+  top: 65%; 
+}
+
+.status-mes h4 {
+  color: #222;
+  margin-top: 30px;
 }
