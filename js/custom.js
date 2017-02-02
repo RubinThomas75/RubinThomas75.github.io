@@ -1,7 +1,10 @@
 
 function makeClear(){
+
 	 setTimeout(function(){
 	 document.getElementById("frontscreen").style.opacity = 1;
+	 	 document.getElementById("status").remove();
+	 document.getElementById("preloader").remove();
 	 }, 800);
 	 setTimeout(function(){
 	 document.getElementById("fb").style.opacity = 1;
